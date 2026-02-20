@@ -20,14 +20,10 @@ with st.sidebar:
     st.markdown("### Example Commands")
     
     st.markdown("**Navigation**")
-    st.markdown("- Go to github.com/Shubhamsaboo/awesome-llm-apps")
-    
-    st.markdown("**Interactions**")
-    st.markdown("- click on mcp_ai_agents")
-    st.markdown("- Scroll down to view more content")
-    
+    st.markdown("- Go to github.com/subodh556")
+
     st.markdown("**Multi-step Tasks**")
-    st.markdown("- Navigate to github.com/Shubhamsaboo/awesome-llm-apps, scroll down, and report details")
+    st.markdown("- Navigate to github.com/subodh556, scroll down, and open one repository")
     st.markdown("- Scroll down and summarize the github readme")
     
     st.markdown("---")
@@ -164,7 +160,3 @@ if 'result' not in locals():
         </div>""", 
         unsafe_allow_html=True
     )
-
-# Footer
-st.markdown("---")
-st.write("Built with Streamlit, Playwright, and [MCP-Agent](https://www.github.com/lastmile-ai/mcp-agent) Framework ❤️")
